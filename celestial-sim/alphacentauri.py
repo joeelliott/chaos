@@ -47,9 +47,10 @@ clock = pygame.time.Clock()
 
 # Create celestial bodies
 bodies = [
+    # CelestialBody('self.name', radius, distance, color, angle0, speed),
     CelestialBody('Alpha Centauri A', 20, 100, YELLOW),
-    CelestialBody('Alpha Centauri B', 15, 200, RED),
-    # CelestialBody('Alpha Centauri B', 15, 200, RED),
+    CelestialBody('Alpha Centauri B', 15, 200, WHITE),
+    CelestialBody('Proxima Centauri', 5, 1000, RED),
     # CelestialBody('Alpha Centauri B', 15, 200, RED),
 ]
 
